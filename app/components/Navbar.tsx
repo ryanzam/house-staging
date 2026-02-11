@@ -20,8 +20,6 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const isActive = (path: string) => pathname === path;
 
-    console.log(pathname)
-
     return (
         <nav className="sticky top-0 left-0 right-0 z-50 bg-secondary/30 backdrop-blur-md">
             <div className="container-wide">
@@ -32,7 +30,7 @@ const Navbar = () => {
                             <Link
                                 key={item.path}
                                 href={item.path}
-                                className={`nav-link text-sm font-medium tracking-wide uppercase ${isActive(item.path) ? "text-foreground after:scale-x-100" : ""
+                                className={`nav-link text-sm font-medium tracking-wide uppercase ${isActive(item.path) ? "!font-extrabold": ""
                                     }`}
                             >
                                 {item.label}

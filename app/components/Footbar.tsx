@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="container-wide section-padding !py-16">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                         {/* Brand */}
-                        <div>
+                        <div className="flex flex-col gap-3">
                             <Link href="/" className="flex items-center md:gap-2">
                                 <HousePlusIcon color="#a97a57" size={40} />
                                 <div className="flex flex-col">
@@ -71,7 +71,7 @@ const Footer = () => {
                                     <a
                                         key={i}
                                         href="#"
-                                        className="w-10 h-10 rounded-full border border-accent flex items-center justify-center hover:bg-accent/70 hover:border-accent/80 transition-all duration-300"
+                                        className="w-10 h-10 rounded-full border border-accent flex items-center justify-center hover:bg-secondary/70 hover:border-accent/80 transition-all duration-300"
                                         aria-label="Social link"
                                     >
                                         <Icon className="w-4 h-4" color="#55473a" />

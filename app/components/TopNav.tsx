@@ -25,7 +25,7 @@ const TopNav = () => {
                             Call Us
                         </a>
                         <a
-                            href="tel:7036558712"
+                            href="mailto:realstatestagingpro@gmail.com"
                             className="flex items-center gap-1 md:gap-2 btn-outline md:text-xs"
                         >
                             <Send className="w-3.5 h-3.5" />
