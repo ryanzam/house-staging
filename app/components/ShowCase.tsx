@@ -2,7 +2,6 @@
 
 import AnimatedSection from './AnimatedSection'
 import CarouselSwiper from './CarouselSwiper'
-import HeroSection from './CarouselSwiper'
 
 const ShowCase = () => {
     return (

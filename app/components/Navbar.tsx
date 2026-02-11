@@ -1,9 +1,10 @@
 "use client"
 
 import { useState } from "react";
-import { Menu, X, Phone, HomeIcon, HousePlusIcon } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { usePathname } from 'next/navigation'
 
 const navItems = [
     { label: "Home", path: "/" },
@@ -14,8 +15,12 @@ const navItems = [
 ];
 
 const Navbar = () => {
+    const pathname = usePathname()
+
     const [isOpen, setIsOpen] = useState(false);
-    const isActive = (path: string) => location.pathname === path;
+    const isActive = (path: string) => pathname === path;
+
+    console.log(pathname)
 
     return (
         <nav className="sticky top-0 left-0 right-0 z-50 bg-secondary/30 backdrop-blur-md">
