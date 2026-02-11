@@ -1,13 +1,15 @@
 import GetInTouch from "./components/GetInTouch";
-import HeroSection from "./components/HeroSection";
 import Mission from "./components/Mission";
+import ShowCase from "./components/ShowCase";
+import CarouselSwiper from "./components/CarouselSwiper";
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <HeroSection />
+      <CarouselSwiper />
       <Mission />
       <GetInTouch />
+      <ShowCase />
     </div>
   );
 }

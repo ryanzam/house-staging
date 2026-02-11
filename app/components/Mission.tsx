@@ -27,7 +27,7 @@ const Mission = () => {
                         { icon: DollarSign, title: "Maximize Value", text: "Professionally staged homes consistently sell for 5-23% more." },
                     ].map((item, i) => (
                         <AnimatedSection key={i} delay={i * 0.15}>
-                            <div className="bg-background p-8 rounded-lg card-hover text-center">
+                            <div className="border-secondary/20 border p-8 rounded-lg card-hover text-center">
                                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-6">
                                     <item.icon className="w-6 h-6 text-accent" />
                                 </div>

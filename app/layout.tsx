@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import TopNav from "./components/TopNav";
 import 'swiper/css';
+import Footer from "./components/Footbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
         <TopNav />
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
