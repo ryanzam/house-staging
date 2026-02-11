@@ -82,7 +82,7 @@ const Footer = () => {
                     </div>
 
                     <div className="border-t border-primary-foreground/10 mt-12 pt-8 text-center text-sm text-accent">
-                        © {new Date().getFullYear()} Showcase Home Staging. All rights reserved.
+                        © {new Date().getFullYear()} Real Estate Staging Pro. All rights reserved.
                     </div>
                 </div>
             </AnimatedSection>
