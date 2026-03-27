@@ -2,7 +2,7 @@
 
 A modern web application for house staging, built with **Next.js** (App Router) and **TypeScript**.  
 
-**Live Demo:** [https://house-staging.vercel.app](https://house-staging.vercel.app)
+**Live Demo:** [Live Demo](https://house-staging.vercel.app)
 
 ![House Staging App Preview](https://via.placeholder.com/800x400/1e3a8a/ffffff?text=House+Staging+Application)  
 *(Replace with actual screenshots once available)*
